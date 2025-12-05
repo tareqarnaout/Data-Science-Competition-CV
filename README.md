@@ -82,8 +82,8 @@ pip install opencv-python-headless numpy face_recognition scikit-learn insightfa
 ```
 Data-Science-Competition-CV/
 ├── main.py                      # Main face recognition script
-├── requirements.txt             # Python package dependencies
-├── dependencies.txt             # Alternative dependencies reference
+├── requirements.txt             # Python package dependencies (pip format)
+├── dependencies.txt             # Dependencies info with import statements
 ├── recognition_results.json     # JSON file with recognition results
 ├── faces_data/                  # Training data directory
 │   ├── person1/                 # Individual person's folder
