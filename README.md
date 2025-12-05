@@ -166,9 +166,6 @@ Below are examples of the face recognition system in action:
 ![Result Example 2](recognition_results/result_Screenshot%202025-02-27%20134248.png)
 *Multiple faces detected and recognized in a group setting*
 
-#### Example 3: Different Lighting Conditions
-![Result Example 3](recognition_results/result_232.jpg)
-*System robust to various lighting conditions*
 
 #### Example 4: Real-world Scenario
 ![Result Example 4](recognition_results/result_WhatsApp%20Image%202025-02-27%20at%2014.59.36_b3d060aa.jpg)
