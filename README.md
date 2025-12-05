@@ -58,7 +58,13 @@ The system achieves high accuracy on the training/validation split, with the exa
 - pip package manager
 
 ### Dependencies
-Install all required packages:
+Install all required packages using the provided requirements file:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install packages individually:
 
 ```bash
 pip install opencv-python-headless numpy face_recognition scikit-learn insightface
@@ -76,7 +82,8 @@ pip install opencv-python-headless numpy face_recognition scikit-learn insightfa
 ```
 Data-Science-Competition-CV/
 ├── main.py                      # Main face recognition script
-├── dependencies.txt             # Python dependencies list
+├── requirements.txt             # Python package dependencies
+├── dependencies.txt             # Alternative dependencies reference
 ├── recognition_results.json     # JSON file with recognition results
 ├── faces_data/                  # Training data directory
 │   ├── person1/                 # Individual person's folder
