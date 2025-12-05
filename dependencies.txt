@@ -1,0 +1,15 @@
+import os
+import cv2
+import numpy as np
+import face_recognition
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+import time
+from insightface.app import FaceAnalysis  # Import ArcFace
+import json  # Import json module
+
+Python 3.12.6 
+
+
+pip install opencv-python-headless numpy face_recognition scikit-learn insightface
